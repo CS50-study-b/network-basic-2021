@@ -1,3 +1,4 @@
+![01-network-topology](https://user-images.githubusercontent.com/86335546/127020697-d021502c-f37f-4095-9e35-19ebe9d33e3d.png)
 # Introduction
 ## 네트워크
     노드들이 데이터를 공유할 수 있게 하는 디지털 
@@ -19,8 +20,7 @@ LAN과 LAN을 다시 하나로 묶은 것
     mesh - 여러 노드들이 그물 처럼 연결된 형태. 주로 WAN 대역을 연결할 떄 사용
     혼합형 - 실제 인터넷은 여러 형태를 혼합한 형태
 
-![network-topology](./img/01-network-topology.png)
-
+![01-network-topology](https://user-images.githubusercontent.com/86335546/127020741-d8ddf51d-4670-4f7d-b7a9-45953b11b09f.png]
 
 ## 네트워크의 통신방식
 	유니 캐스트 - 1:1 통신방식. 정확한 출발지와 목적지를 가지고 통신. 많은 host들과 통신하는 경우에는 비효율적
