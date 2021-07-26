@@ -19,7 +19,7 @@ LAN과 LAN을 다시 하나로 묶은 것
     mesh - 여러 노드들이 그물 처럼 연결된 형태. 주로 WAN 대역을 연결할 떄 사용
     혼합형 - 실제 인터넷은 여러 형태를 혼합한 형태
 
-![network-topology](https://user-images.githubusercontent.com/86335546/127017984-298c1752-c081-4bcc-b91e-fb25f58aa91a.png)
+![network-topology](./img/01-network-topology.png)
 
 
 ## 네트워크의 통신방식
