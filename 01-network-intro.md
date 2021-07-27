@@ -10,7 +10,7 @@ www는 네트워크의 종류. 인터넷 통신망을 이용하여 웹과 관련
 ## 네트워크의 분류
 ### 크기에 따라
 	LAN : Local Area Network
-	WAN: Wide Area Network
+	WAN : Wide Area Network
 
 WAN은 멀리있는 지역을 한데 묶은 네트워크로서 
 LAN과 LAN을 다시 하나로 묶은 것
