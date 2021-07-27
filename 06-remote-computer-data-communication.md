@@ -7,7 +7,7 @@
 
 ## IPv4의 구조
 
-[](./img/06-ipv4-structure.jpg)
+![](./img/06-ipv4-structure.jpg)
 
 - Version : 4가 온다
 - IHL(Header Length) : 헤더의 길이는 20-60 따라서 4로 나눠서 20-60 -> 5-15로 표현
@@ -29,8 +29,8 @@ ICMP(Internet Control Message Protocol, 인터넷 제어 메시지 프로토콜)
 
 ## ICMP 프로토콜의 구조
 
-[](./img/06-icmp.jpg)
-[](./img/06-icmp-detail.jpg)
+![](./img/06-icmp.jpg)
+![](./img/06-icmp-detail.jpg)
 
 - Type : 카테고리(대분류), 0,8(0: 응답, 8: 요청), 3,11(3: 목적지 도달 불가 – 경로 설정 오류, 11: 요청 시간 만료 – 상대방의 문제일 가능성이 높다), 5(5: ICMP redirect – 상대방의 라우팅 테이블 원격 수정 가능 – 악용 가능성)
 - Code : Type의 소분류
