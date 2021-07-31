@@ -1,4 +1,5 @@
-#TCP 프로토콜
+
+##TCP 프로토콜
 
 -전송 제어 프로토콜(Transmission Control Protocol)은 인터넷에 연결된 컴퓨터에서 실행되는 프로그램 간에 통신을 안정적으로, 순서대로, 에러없이 교환할 수 있게 함
 -TCP의 안정성을 요구하지 않는 애플리케이션은 비접속형 사용자 데이터그램 프로토콜 사용(User Datagram Protocol)
