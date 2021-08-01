@@ -11,14 +11,14 @@ ipv4는 발신지 뿐 아니라 라우터에서도 단편화 가능하지만, ip
 
 ## 조각화를 위한 헤더의 필드들
 * Flag
-    - DF(Do not Flagment): 1 단편화를 하지 않음   0 단편화를 함
+    - DF(Do not Flagment): 0 단편화를 함   1 단편화를 하지 않음
     - MF(More Fragment) : 0 추가적인 단편화된 파일 없음   1 추가적인 단편화된 파일 있음
 * Flagment offset
     - 전체 데이터에서 단편에 포함된 데이터의 시작위치. 8바이트 단위로 표시
 
 * Total length
 	- 헤더와 데이터를 합한 길이
-	- 데이터의 길이 = 전체 길이 -  헤더 길이
+	- 데이터의 길이 = 전체 길이 - 헤더 길이
 
 * Identification
     - 모든 단편화된 헤더에는 식별자 필드다 포함 됨
@@ -26,11 +26,12 @@ ipv4는 발신지 뿐 아니라 라우터에서도 단편화 가능하지만, ip
     - 식별자는 중복되지 않아야 함
 
 ## 조각화에 대한 예시
-Example1)
++ Example1)
 ![flagmentation-example01](./img/14-flagmentation02.png)
+
     1500MTU를 갖는 라우터에 이보다 큰 2000바이트의 데이터를 조각화를 하지않고 전송한 경우 전송이 되지 않음.
 
-Example2)
++ Example2)
 ![flagmentation-example02](./img/14-flagmentation03.png)
 
     일반적으로 ipv4 헤더의 크기는 20byte ethernet	헤더의 크기는  14byte임 
