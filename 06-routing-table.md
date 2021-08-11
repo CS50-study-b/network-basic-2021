@@ -1,6 +1,7 @@
-# 3계층 네트워크 모델
-- 서로 다른 LAN 대역을 연결 (WAN)
-- IPv4, IPv6, ARP, IGMP, ICMP 등
+# Routing Table
+- 다른 네트워크 주소를 찾아갈 때 사용하는 최적의 경로를 저장해 놓는 지도
+
+![](./img/06-routing-table.png)
 
 # IP Address
 ![](./img/04-IP-Address.png)
