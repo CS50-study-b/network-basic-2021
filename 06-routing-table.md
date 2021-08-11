@@ -1,7 +1,7 @@
 # Routing Table
 - 다른 네트워크 주소를 찾아갈 때 사용하는 최적의 경로를 저장해 놓는 지도
 
-![](./img/06-routing-table.png)
+![](./img/06-routing-table.PNG)
 
 # IP Address
 ![](./img/04-IP-Address.png)
